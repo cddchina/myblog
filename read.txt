@@ -50,5 +50,16 @@ categories: Testing
 
 http://blog.csdn.net/qq_33699981/article/details/72716951
 
-
-
+添加RSS
+npm install hexo-generator-feed --save
+站点配置：
+#设置RSS
+feed: 
+  type: rss2
+  path: rss2.xml
+  limit: 5
+  hub: 
+  content: 'true'
+  
+ http://www.jianshu.com/p/5973c05d7100
+leancloud统计
