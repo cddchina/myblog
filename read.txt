@@ -1,4 +1,4 @@
-
+﻿
 npm install hexo-cli g 
 npm install hexo --save
 hexo init
@@ -47,6 +47,8 @@ type: "categories"
 categories: Testing
 ---
 
+
+http://blog.csdn.net/qq_33699981/article/details/72716951
 
 
 
