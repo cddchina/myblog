@@ -1,0 +1,52 @@
+
+npm install hexo-cli g 
+npm install hexo --save
+hexo init
+hexo algolia
+
+npm install
+npm install hexo-algolia@0.2.0
+这个需要多次尝试
+npm install hexo-server --save
+npm install hexo-deployer-git --save
+
+# 安装hexo
+npm install hexo-cli g
+# 初始化博客文件夹
+hexo init blog
+# 切换到该路径
+cd blog
+# 安装hexo的扩展插件
+npm installhexo g
+# 安装其它插件
+npm install hexo-server --save
+npm install hexo-admin --save
+npm install hexo-generator-archive --save
+npm install hexo-generator-feed --save
+npm install hexo-generator-search --save
+npm install hexo-generator-tag --save
+npm install hexo-deployer-git --save
+npm install hexo-generator-sitemap --save
+
+hexo new page categories
+hexo new page tags
+
+Tags：需要自己配置
+搜索：algolia 命令还需多次尝试
+归档：模板自带的
+分类：
+http://theme-next.iissnan.com/theme-settings.html
+title: 分类测试文章
+categories: Testing
+---
+
+---
+title: Hello World
+tags: [html, css, js]
+type: "categories"
+categories: Testing
+---
+
+
+
+

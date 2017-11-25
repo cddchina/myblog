@@ -76,16 +76,17 @@ pagination_dir: page
 theme: next1
 
 #algolia:
-#appId: 'F5LCB3WKCU'
-#apiKey: '348ac0ccad8919449fb8e5043a060037'
-#adminApiKey: 'd2e68f0473d6b757a2b9035a35bcf71c'
-#indexName: 'cddchina'
-#chunkSize: 5000
-#fields:
-#- title
-#- slug
-#- path
-#- content: strip
+algolia:
+  applicationID: 'F5LCB3WKCU'
+  apiKey: '348ac0ccad8919449fb8e5043a060037'
+  adminApiKey: 'd2e68f0473d6b757a2b9035a35bcf71c'
+  indexName: 'cddchina'
+  chunkSize: 5000
+  fields:
+   - title
+   - slug
+   - path
+   - content: strip
 
 
 # Deployment

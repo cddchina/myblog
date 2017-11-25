@@ -129,7 +129,7 @@
 <script type="text/javascript" id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
-    root: '{{ theme.root }}',
+    root: '/',
     scheme: '{{ theme.scheme }}',
     version: '{{ theme.version }}',
     sidebar: {{ theme.sidebar | json_encode }},
@@ -141,9 +141,9 @@
       author: '{{ theme.duoshuo_info.admin_nickname | default(__('author'))}}'
     },
     algolia: {
-      applicationID: '{{ theme.algolia.applicationID }}',
-      apiKey: '{{ theme.algolia.apiKey }}',
-      indexName: '{{ theme.algolia.indexName }}',
+      applicationID: 'F5LCB3WKCU',
+      apiKey: '348ac0ccad8919449fb8e5043a060037',
+      indexName: 'cddchina',
       hits: {{ theme.algolia_search.hits | json_encode }},
       labels: {{ theme.algolia_search.labels | json_encode }}
     }
