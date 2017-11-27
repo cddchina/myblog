@@ -100,6 +100,6 @@ feed:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
    type: git
-#   repository: git@github.com:cddchina/cddchina.github.io.git
-   repository: git@git.coding.net:cddchina/cddchina.git
+   repository: git@github.com:cddchina/cddchina.github.io.git
+#   repository: git@git.coding.net:cddchina/cddchina.git
    branch: master
