@@ -191,7 +191,7 @@ sidebar:
   scrollpercent: false
 
   # Enable sidebar on narrow view (only for Muse | Mist).
-  onmobile: false
+  onmobile: true
 
 
 # ---------------------------------------------------------------
@@ -389,7 +389,7 @@ valine:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+livere_uid: 'MTAyMC8zMjA5MS84NjU1'
 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
