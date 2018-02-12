@@ -77,6 +77,14 @@ npm install hexo-generator-search --save
 npm install hexo-generator-tag --save
 npm install hexo-deployer-git --save
 npm install hexo-generator-sitemap --save
+npm install hexo-generator-search --save
+npm install hexo-generator-searchdb --save
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
 
 #字数统计
 npm install hexo-wordcount --save
