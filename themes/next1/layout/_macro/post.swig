@@ -297,6 +297,8 @@
             <a class="btn" href="{{ url_for(post.path) }}">
               {{ __('post.read_more') }} &raquo;
             </a>
+			<!-- hr style=" height:2px;border:none;border-top:2px dotted #185598;" / -->
+			<img src="/images/hexoline.jpg" width="100%" height="16" oncontextmenu="return false;" onselectstart="return false;" style="border:none;">
           </div>
           <!--/noindex-->
         {% elif post.excerpt  %}
@@ -306,6 +308,8 @@
             <a class="btn" href="{{ url_for(post.path) }}{% if theme.scroll_to_more %}#{{ __('post.more') }}{% endif %}" rel="contents">
               {{ __('post.read_more') }} &raquo;
             </a>
+			<!-- hr style=" height:2px;border:none;border-top:2px dotted #185598;" / -->
+			<img src="/images/hexoline.jpg" width="100%" height="16" oncontextmenu="return false;" onselectstart="return false;" style="border:none;">
           </div>
           <!--/noindex-->
         {% elif theme.auto_excerpt.enable %}
@@ -317,6 +321,8 @@
             <a class="btn" href="{{ url_for(post.path) }}{% if theme.scroll_to_more %}#{{ __('post.more') }}{% endif %}" rel="contents">
               {{ __('post.read_more') }} &raquo;
             </a>
+			<!-- hr style=" height:2px;border:none;border-top:2px dotted #185598;" / -->
+			<img src="/images/hexoline.jpg" width="100%" height="16" oncontextmenu="return false;" onselectstart="return false;" style="border:none;">
           </div>
           <!--/noindex-->
         {% else %}
