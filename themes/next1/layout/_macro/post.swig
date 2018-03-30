@@ -298,7 +298,7 @@
               {{ __('post.read_more') }} &raquo;
             </a>
 			<!-- hr style=" height:2px;border:none;border-top:2px dotted #185598;" / -->
-			<img src="/images/hexoline.jpg" width="100%" height="16" oncontextmenu="return false" ondragstart = "return false" onclick = "return false" onactivate ="return false" onmousemove  = "return false" ondragenter = "return false" onselectstart="return false" style="border:none;">
+			<img class = "nofancybox" src="/images/hexoline.jpg" width="100%" height="16" oncontextmenu="return false" ondragstart = "return false" onclick = "return false" onactivate ="return false" onmousemove  = "return false" ondragenter = "return false" onselectstart="return false" style="border:none;">
           </div>
           <!--/noindex-->
         {% elif post.excerpt  %}
@@ -309,7 +309,7 @@
               {{ __('post.read_more') }} &raquo;
             </a>
 			<!-- hr style=" height:2px;border:none;border-top:2px dotted #185598;" / -->
-			<img src="/images/hexoline.jpg" width="100%" height="16" oncontextmenu="return false" ondragstart = "return false" onclick = "return false" onactivate ="return false" onmousemove  = "return false"  ondragenter = "return false" onselectstart="return false" style="border:none;">
+			<img class = "nofancybox" src="/images/hexoline.jpg" width="100%" height="16" oncontextmenu="return false" ondragstart = "return false" onclick = "return false" onactivate ="return false" onmousemove  = "return false"  ondragenter = "return false" onselectstart="return false" style="border:none;">
           </div>
           <!--/noindex-->
         {% elif theme.auto_excerpt.enable %}
@@ -322,7 +322,7 @@
               {{ __('post.read_more') }} &raquo;
             </a>
 			<!-- hr style=" height:2px;border:none;border-top:2px dotted #185598;" / -->
-			<img src="/images/hexoline.jpg" width="100%" height="16" oncontextmenu="return false" ondragstart = "return false" onclick = "return false" onactivate ="return false" onmousemove  = "return false"  ondragenter = "return false" onselectstart="return false" style="border:none;">
+			<img class = "nofancybox" src="/images/hexoline.jpg" width="100%" height="16" oncontextmenu="return false" ondragstart = "return false" onclick = "return false" onactivate ="return false" onmousemove  = "return false"  ondragenter = "return false" onselectstart="return false" style="border:none;">
           </div>
           <!--/noindex-->
         {% else %}

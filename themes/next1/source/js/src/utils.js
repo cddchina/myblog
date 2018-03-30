@@ -10,6 +10,7 @@ NexT.utils = NexT.$u = {
       .not('.group-picture img, .post-gallery img')
       .each(function () {
         var $image = $(this);
+		if ($(this).hasClass('nofancybox')) return;
         var imageTitle = $image.attr('title');
         var $imageWrapLink = $image.parent('a');
 
@@ -20,7 +21,7 @@ NexT.utils = NexT.$u = {
 
         $imageWrapLink.addClass('fancybox fancybox.image');
         $imageWrapLink.attr('rel', 'group');
-
+		
         if (imageTitle) {
           $imageWrapLink.append('<p class="image-caption">' + imageTitle + '</p>');
 
